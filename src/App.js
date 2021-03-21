@@ -20,10 +20,8 @@ var emojiDB = {
   "🤩": "Star-Struck",
   "😘": "Face Blowing a Kiss",
   "😗": "Kissing Face",
-
   "😚": "Kissing Face with Closed Eyes",
   "😙": "Kissing Face with Smiling Eyes",
-
   "😋": "Face Savoring Food",
   "😛": "Face with Tongue",
   "😜": "Winking Face with Tongue",
@@ -62,7 +60,6 @@ var emojiDB = {
   "🤯": " Exploding Head",
   "🤠": "Cowboy Hat Face",
   "🥳": "Partying Face",
-
   "😎": "Smiling Face with Sunglasses",
   "🤓": "Nerd Face",
   "🧐": "Face with Monocle",
@@ -106,7 +103,7 @@ function App() {
   }
   return (
     <div className="App">
-      <div className="header">Click emoji to know emotion.</div>
+      <div className="header">Click emoji to know meaning.</div>
       <div className="headerUnderline">It will be displayed below.</div>
       <hr className="mb-5" />
       <div className="text mb-5" key={meaning}>
