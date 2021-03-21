@@ -1,0 +1,35 @@
+:root {
+  --background-color: #e6ffff;
+}
+
+.jumbotron {
+  background-color: var(--background-color);
+}
+
+.App {
+  font-family: monospace;
+  text-align: center;
+}
+
+.emoji {
+  padding: 25px;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.emoji:hover {
+  opacity: 0.7;
+  font-size: 3.5rem;
+}
+
+.borderEmoji {
+  border: 5px solid black;
+}
+.text,
+.header {
+  font-family: monospace;
+  font-size: 3rem;
+}
+.headerUnderline {
+  font-family: monospace;
+  font-size: 1rem;
+}
