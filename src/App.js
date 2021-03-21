@@ -107,7 +107,7 @@ function App() {
   return (
     <div className="App">
       <div className="header">Click emoji to know emotion.</div>
-      <div className="headerUnderline">It will be displayed bellow.</div>
+      <div className="headerUnderline">It will be displayed below.</div>
       <hr className="mb-5" />
       <div className="text mb-5" key={meaning}>
         {meaning}
